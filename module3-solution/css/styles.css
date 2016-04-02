@@ -2,7 +2,7 @@ body {
   padding-top: 70px;
 }
 .navbar {
-  background-color: #CCCCCC;
+  background-color: #E8E8E8;
 }
 .navbar-brand {
   font-weight: bold;
@@ -10,25 +10,28 @@ body {
 #navbar-menu {
   margin-top: 50px;
   text-align: center;
+  background-color: #FFFFFF;
+}
+ul.navbar-nav {
+  margin: 0;
+}
+li:hover {
   background-color: #F8F8F8;
 }
 hr {
-  margin: 7px 0;
-  color: 000000;
+  margin: 0;
 }
 li {
   font-weight: bold;
 }
-#main-content {
-  background-color: #CCCCCC;
-}
-
-
-@media (max-width: 767px) {
-
-  #main-content {
-    width: 90%;
-    margin-left: 5%;
-  }
+.section {
+  background-color: #E8E8E8;
+  padding: 10px;
+  margin-bottom: 30px;
 
 }
+a.back-to-top {
+  font-weight: bold;
+  font-size: 1.2em;
+}
+
