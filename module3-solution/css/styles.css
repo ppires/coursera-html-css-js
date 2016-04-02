@@ -10,13 +10,13 @@ body {
 #navbar-menu {
   margin-top: 50px;
   text-align: center;
-  background-color: #FFFFFF;
+  background-color: #F8F8F8;
 }
 ul.navbar-nav {
   margin: 0;
 }
 li:hover {
-  background-color: #F8F8F8;
+  background-color: #FFFFFF;
 }
 hr {
   margin: 0;
